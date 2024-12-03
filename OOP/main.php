@@ -2,6 +2,7 @@
 <?php 
 include './Basic/People.php';
 include './Basic/Retangle.php';
+include './Basic/Discount.php';
 
 $exemplo = new People("Gustavo",15);
 $exemplo2 = new Retangle(4,4);
@@ -13,4 +14,5 @@ echo $exemplo->setAge(15);
 echo $exemplo->getAge().PHP_EOL;
 echo $exemplo2->getAltura().PHP_EOL;
 echo $exemplo2->getLargura().PHP_EOL;
-echo $exemplo2->caculaArea(4,4).PHP_EOL;
+echo $exemplo2->calculaArea(4,4).PHP_EOL;
+echo '------------'

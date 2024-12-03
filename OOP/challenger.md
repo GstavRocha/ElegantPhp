@@ -4,7 +4,7 @@ Aqui está uma lista com 50 desafios lógicos em PHP, organizados por níveis de
 
 ### **Nível 1 - Básico**
 1. **Classe Pessoa**: Crie uma classe `Pessoa` com atributos `nome` e `idade`. Instancie e exiba os valores. **FEITO**
-2. **Classe Retângulo**: Crie uma classe `Retangulo` com largura e altura, e um método para calcular a área.
+2. **Classe Retângulo**: Crie uma classe `Retangulo` com largura e altura, e um método para calcular a área. **FEITO**
 3. **Classe Produto**: Crie uma classe `Produto` com `nome` e `preco`. Adicione um método para aplicar desconto.
 4. **Classe Calculadora**: Crie uma classe com métodos para somar, subtrair, multiplicar e dividir dois números.
 5. **Classe Animal**: Crie uma classe com atributos genéricos e métodos `emitirSom` para diferentes tipos de animais.

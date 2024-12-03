@@ -24,6 +24,6 @@ class Retangle{
     	return $this->largura;
     }
     function calculaArea($altura,$largura){
-    	return $algura*$largura;
+    	return $altura*$largura;
     }
 };
