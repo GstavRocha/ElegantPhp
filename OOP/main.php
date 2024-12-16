@@ -12,7 +12,14 @@ echo $exemplo->setName("Lucky").PHP_EOL;
 echo $exemplo->getName().PHP_EOL;
 echo $exemplo->setAge(15);
 echo $exemplo->getAge().PHP_EOL;
+echo '-----------question2---------',PHP_EOL;
 echo $exemplo2->getAltura().PHP_EOL;
 echo $exemplo2->getLargura().PHP_EOL;
+<<<<<<< Updated upstream
 echo $exemplo2->calculaArea(4,4).PHP_EOL;
 echo '------------'
+=======
+echo $exemplo2->calcularArea(4,4).PHP_EOL;
+echo '-----------question3----------',PHP_EOL;
+
+>>>>>>> Stashed changes

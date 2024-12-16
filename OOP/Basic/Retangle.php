@@ -23,7 +23,11 @@ class Retangle{
     function getLargura(){
     	return $this->largura;
     }
+<<<<<<< Updated upstream
     function calculaArea($altura,$largura){
+=======
+    function calcularArea($altura,$largura){
+>>>>>>> Stashed changes
     	return $altura*$largura;
     }
 };
