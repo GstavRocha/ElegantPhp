@@ -1,17 +1,24 @@
 <?php
 
 class AnimalsSound{
-    public $choose;
-    public function _construct($yourChoose)
+    public function selectAnimal($param)
     {
-        $this->choose = $yourChoose;
-    }
-    public fuction animal()
-    {
-        switch($this->choose)
+        switch($param)
         {
             case 1:
-            return 'The Cat Sound!'
+                return 'o gato mia';
+            case 2:
+                return 'o cachorro late';
+            case 3:
+                return 'a galinha cacareja';
+            case 4:
+                return 'a vaca munji';
+            default:
+                return 'Animal Desconhecido';
         }
     }
 }
+$teste = new AnimalsSound();
+$check = $teste->selectAnimal(1);
+echo $check;
+// está da
